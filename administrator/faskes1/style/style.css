@@ -1,0 +1,41 @@
+.cari{
+    flex-direction: row;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+
+html, body{
+    height: auto;
+    min-height: 100%;
+    overflow-y: auto;
+}
+
+#container{
+  /* max-height: 500px; 
+  overflow-x: auto; */  
+  overflow-y: visible;    
+  display: block; 
+  overflow-x: auto;
+  width: 100%;
+  
+}
+table {
+    /* border-collapse: collapse;
+    width: max-content; 
+    min-width: 100%;
+    display: block; */
+    border-collapse: collapse;
+  width: 100%;
+  }
+  th, td {
+    border: 2px solid black;
+    padding: 8px;
+    white-space: nowrap; 
+  }
+
+@media screen and (max-width: 500px) {
+  #btn-tambah{
+    font-size: 12px;
+  }
+}

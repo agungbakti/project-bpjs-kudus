@@ -1,0 +1,4 @@
+[16-Jun-2025 21:13:59 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function ambilnilaiDenganPagination() in /home/u465459225/domains/maroon-gnu-399476.hostingersite.com/public_html/administrator/faskes/dashboard/faskes.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/u465459225/domains/maroon-gnu-399476.hostingersite.com/public_html/administrator/faskes/dashboard/faskes.php on line 43

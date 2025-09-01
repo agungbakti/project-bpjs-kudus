@@ -1,0 +1,30 @@
+[16-Jun-2025 22:22:42 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'u465459225_bpjs.tb_faskes1' doesn't exist in /home/u465459225/domains/maroon-gnu-399476.hostingersite.com/public_html/administrator/faskes/database/function_faskes.php:32
+Stack trace:
+#0 /home/u465459225/domains/maroon-gnu-399476.hostingersite.com/public_html/administrator/faskes/database/function_faskes.php(32): mysqli_query()
+#1 /home/u465459225/domains/maroon-gnu-399476.hostingersite.com/public_html/administrator/faskes/dashboard/faskes.php(22): ambilnilai()
+#2 {main}
+  thrown in /home/u465459225/domains/maroon-gnu-399476.hostingersite.com/public_html/administrator/faskes/database/function_faskes.php on line 32
+[16-Jun-2025 22:23:53 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'u465459225_bpjs.tb_faskes1' doesn't exist in /home/u465459225/domains/maroon-gnu-399476.hostingersite.com/public_html/administrator/faskes/database/function_faskes.php:32
+Stack trace:
+#0 /home/u465459225/domains/maroon-gnu-399476.hostingersite.com/public_html/administrator/faskes/database/function_faskes.php(32): mysqli_query()
+#1 /home/u465459225/domains/maroon-gnu-399476.hostingersite.com/public_html/administrator/faskes/dashboard/faskes.php(22): ambilnilai()
+#2 {main}
+  thrown in /home/u465459225/domains/maroon-gnu-399476.hostingersite.com/public_html/administrator/faskes/database/function_faskes.php on line 32
+[16-Jun-2025 22:24:11 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'u465459225_bpjs.tb_faskes1' doesn't exist in /home/u465459225/domains/maroon-gnu-399476.hostingersite.com/public_html/administrator/faskes/database/function_faskes.php:32
+Stack trace:
+#0 /home/u465459225/domains/maroon-gnu-399476.hostingersite.com/public_html/administrator/faskes/database/function_faskes.php(32): mysqli_query()
+#1 /home/u465459225/domains/maroon-gnu-399476.hostingersite.com/public_html/administrator/faskes/dashboard/faskes.php(22): ambilnilai()
+#2 {main}
+  thrown in /home/u465459225/domains/maroon-gnu-399476.hostingersite.com/public_html/administrator/faskes/database/function_faskes.php on line 32
+[16-Jun-2025 22:24:12 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'u465459225_bpjs.tb_faskes1' doesn't exist in /home/u465459225/domains/maroon-gnu-399476.hostingersite.com/public_html/administrator/faskes/database/function_faskes.php:32
+Stack trace:
+#0 /home/u465459225/domains/maroon-gnu-399476.hostingersite.com/public_html/administrator/faskes/database/function_faskes.php(32): mysqli_query()
+#1 /home/u465459225/domains/maroon-gnu-399476.hostingersite.com/public_html/administrator/faskes/dashboard/faskes.php(22): ambilnilai()
+#2 {main}
+  thrown in /home/u465459225/domains/maroon-gnu-399476.hostingersite.com/public_html/administrator/faskes/database/function_faskes.php on line 32
+[16-Jun-2025 22:24:12 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'u465459225_bpjs.tb_faskes1' doesn't exist in /home/u465459225/domains/maroon-gnu-399476.hostingersite.com/public_html/administrator/faskes/database/function_faskes.php:32
+Stack trace:
+#0 /home/u465459225/domains/maroon-gnu-399476.hostingersite.com/public_html/administrator/faskes/database/function_faskes.php(32): mysqli_query()
+#1 /home/u465459225/domains/maroon-gnu-399476.hostingersite.com/public_html/administrator/faskes/dashboard/faskes.php(22): ambilnilai()
+#2 {main}
+  thrown in /home/u465459225/domains/maroon-gnu-399476.hostingersite.com/public_html/administrator/faskes/database/function_faskes.php on line 32

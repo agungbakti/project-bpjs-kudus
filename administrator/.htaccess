@@ -1,0 +1,10 @@
+# Nonaktifkan directory listing
+Options -Indexes
+
+# Lindungi folder includes
+<If "%{REQUEST_URI} =~ m#^/includes/#">
+  Require all denied
+</If>
+<If "%{REQUEST_URI} =~ m#^/action/#">
+  Require all denied
+</If>

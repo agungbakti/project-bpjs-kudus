@@ -1,0 +1,17 @@
+{
+    "name": "thinkpadx390/excel",
+    "autoload": {
+        "psr-4": {
+            "Thinkpadx390\\Excel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Agung Bakti",
+            "email": "agungbkti9@gmail.com"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^4.2"
+    }
+}

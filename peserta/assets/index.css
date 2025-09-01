@@ -1,0 +1,217 @@
+html{
+  scroll-behavior: smooth;
+}
+
+#home{
+    background-image: url(kantorbpjs.jpg);
+    background-size: cover;
+     background-position: center;
+      position: relative;
+     height: 100vh;
+      color: white;
+  }
+
+.gambar{
+    width: 50%;
+}
+
+.gambar > img{
+    max-height: 60vh;
+    width: 100%;
+}
+
+.teks{
+    width: 43%;
+}
+
+li{
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.tab-content  .card{
+  padding: 1rem;
+}
+
+.nav-pills{
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+#profil {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+}
+
+.nav-pills::-webkit-scrollbar {
+  display: none;
+}
+
+#profil-tab {
+  flex-direction: column;
+  display: flex;           
+  flex-direction: column; 
+  padding-left: 0;        
+  margin-bottom: 1rem;    
+  list-style: none;
+}
+
+@media (max-width: 767.98px) {
+    .gambar, .teks {
+    width: 100%; 
+    margin-bottom: 1rem;
+  }
+  #profil-tab {
+    flex-direction: row !important;
+    border-bottom: 1px solid #ddd;
+     overflow-x: auto;                
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+  }
+
+ 
+  #profil-tab .nav-link {
+    flex: 0 0 auto;
+    margin-right: 0.5rem;
+    white-space: nowrap; 
+  }
+
+
+  .tab-content {
+    padding-top: 1rem;
+  }
+}
+
+#galeri{
+  min-height: 100vh;
+  padding-top: 70px;
+  position: relative;
+  background-color: #f0fdf6; /* hijau sangat muda */
+  background-image: url('https://www.transparenttextures.com/patterns/white-carbon.png'); /* atau pattern SVG */
+}
+
+
+
+.carousel-item img {
+  height: 60vh;
+  object-fit: contain;
+}
+
+.carousel-inner {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+/* .shadow-sm:hover {
+  transform: translateY(-5px);
+  transition: 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+} */
+
+/* Default (Desktop) */
+.carousel-caption {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #000;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 600px;
+}
+
+/* Mobile: Ubah posisi dan styling */
+@media (max-width: 768px) {
+  .carousel-caption {
+    position: static !important;  /* lepas dari posisi absolut */
+    width: 100% !important;
+    padding: 0.75rem 1rem;
+    margin-top: 0.5rem;
+    background-color: transparent; /* hilangkan background putih */
+    box-shadow: none;
+  }
+}
+
+
+
+.sosmed-icon i{
+  font-size: 1.5rem;
+  transition: 0.3a ease;
+}
+
+.sosmed-icon a:hover i {
+  transform: scale(1.2);
+  opacity: 0.8;
+}
+
+.hero-section {
+  position: relative;
+  height: 100vh;
+  background: url('assets/kantorbpjs.jpg') no-repeat center center/cover;
+  color: white;
+}
+
+.hero-section .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); 
+  z-index: 1;
+}
+
+.hero-section .content-box {
+  position: relative;
+  z-index: 2;
+  /* background-color: rgba(255, 255, 255, 0.85); */
+  color: #222;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  backdrop-filter: blur(3px);
+}
+
+
+#kontak {
+  background-color: #f9fafb;
+}
+
+#kontak .card {
+  transition: all 0.3s ease;
+}
+
+#kontak .card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+#kontak .card h5 {
+  color: #1e293b;
+  font-weight: 600;
+}
+
+#kontak .card p {
+  color: #334155;
+  font-size: 0.95rem;
+}
+
+#kontak .card a strong {
+  color: #1e293b;
+}
+
+#kontak .card iframe {
+  border-radius: 0.75rem;
+}
+
+#kontak .text-dark:hover {
+  color: #0d6efd;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  #kontak .card {
+    margin-bottom: 1rem;
+  }
+}

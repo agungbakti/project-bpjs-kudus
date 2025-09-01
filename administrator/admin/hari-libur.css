@@ -1,0 +1,42 @@
+#main_title {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.box1 h2 {
+    float: left;
+}
+
+.box1 button {
+    float: right;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h6 {
+    text-align: center;
+    color: red;
+}
+
+@media screen and (max-width: 500px) {
+    #judul {
+        font-size: 20px;
+    }
+}
+
+
+#liveSearch {
+    transition: all 0.3s ease;
+    width: 200px;
+}
+#liveSearch:focus {
+    width: 250px;
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}

@@ -1,0 +1,68 @@
+h1{
+    text-align: center;
+}
+form{
+    justify-self: center;
+}
+/* Select2 Styling */
+.select2-container--default .select2-selection--single {
+    height: 42px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 5px 12px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #333;
+    line-height: 28px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    top: 8px;
+}
+select {
+    appearance: none;
+    background: white url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20fill%3D%22gray%22%20height%3D%2220%22%20viewBox%3D%220%200%2024%2024%22%20width%3D%2220%22%20xmlns%3D%22http://www.w3.org/2000/svg%22%3E%3Cpath%20d%3D%22M7%2010l5%205%205-5z%22/%3E%3C/svg%3E") no-repeat right 1rem center;
+    background-size: 1rem;
+}
+input[type="text"]:hover,
+input[type="email"]:hover,
+select:hover {
+    border-color: #2980b9;
+}
+button[type="submit"] {
+    background-color: #27ae60;
+}
+
+button[type="submit"]:hover {
+    background-color: #219150;
+}
+
+input:focus,
+select:focus {
+    border-color: #27ae60;
+}
+
+.select2-container--default .select2-selection--single {
+    height: 38px !important;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.375rem;
+    display: flex;
+    align-items: center;
+}
+
+.select2-selection__rendered {
+    line-height: 1.5 !important;
+}
+
+.select2-selection__arrow {
+    height: 100% !important;
+    top: 0px !important;
+}
+.input-group.nowrap{
+    flex-wrap: nowrap;
+}
