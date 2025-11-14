@@ -1,6 +1,6 @@
 <?php
 // menghubungkan ke database
-$koneksi = mysqli_connect("localhost", "u465459225_sibaku", "Sibaku123", "u465459225_bpjs");
+$koneksi = mysqli_connect("localhost", "root", "", "bpjs");
 
 
 // $koneksi = mysqli_connect("sql111.byethost12.com", "b12_38946036", "9JAr?VH7unj#Bf#", "b12_38946036_db_faskes");
